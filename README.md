@@ -1,16 +1,40 @@
-# wireframe_app
+📱 Wireframe Profile App (Flutter)
 
-A new Flutter project.
+Un projet Flutter visant à reproduire l’interface d’un profil utilisateur inspiré de Facebook, avec un design moderne, une architecture propre et de bonnes pratiques de performance.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+🚀 Objectifs du projet
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Reproduire un profil utilisateur type réseau social (≈80%)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Mettre en place une architecture Flutter propre et scalable
+
+Optimiser les performances des images
+
+Séparer clairement les widgets, écrans et logique UI
+
+Projet prêt pour une évolution vers Firebase / API REST
+
+
+🧱 Fonctionnalités actuelles
+
+✅ Cover + photo de profil
+✅ Nom & bio utilisateur
+✅ Boutons d’actions (Modifier, Ajouter, Message)
+✅ Section amis (grid avatars)
+✅ UI responsive
+✅ Optimisation basique des images réseau
+
+
+
+lib/
+├── main.dart
+├── screens/
+│   └── profile_screen.dart
+├── widgets/
+│   ├── cover_profile.dart
+│   ├── about_section.dart
+│   ├── friends_section.dart
+│   └── post_item.dart
+
